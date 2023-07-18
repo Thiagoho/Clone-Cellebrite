@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+
+/*Aplicar o grid 
+    Colocar display: grid; Nota que ñ tem alteração no navegador. Olha no navegado click no elemento [PAI], nota que irá um bordar nome do flex () ao click no elementos da bordar, seu navegador mostrará como esta funcionado os display: flex; ficará em horizantoal*/
+/*Usar o display: inline-grid; nota no navegagor os elementos ficará em linha na vertical, ocupando somente os espaço do canto esquerdo.*/
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: row wrap;
+    border-radius: 42px;
+    gap: 230px;
+
+}
+.item {
+    background-color: palegreen;
+    border-radius: 42px;
+}
